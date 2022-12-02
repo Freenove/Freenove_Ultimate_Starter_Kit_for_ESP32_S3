@@ -10,6 +10,8 @@ ESP32-S3 chip is manufactured by Espressif®.
 Freenove ESP32-S3 Board can be uploaded code using Arduino® IDE.
 > Arduino® is a trademark of Arduino LLC (https://www.arduino.cc/).
 
+<img src='ESP32S3_Pinout.png' width='70%'/>
+
 ### Download
 
 Click the green "Code" button, then click "Download ZIP" button in the pop-up window.  
