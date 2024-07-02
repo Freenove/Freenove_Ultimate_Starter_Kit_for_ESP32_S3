@@ -34,7 +34,6 @@ void loop() {
 }
 
 bool i2CAddrTest(uint8_t addr) {
-  Wire.begin();
   Wire.beginTransmission(addr);
   if (Wire.endTransmission() == 0) {
     return true;

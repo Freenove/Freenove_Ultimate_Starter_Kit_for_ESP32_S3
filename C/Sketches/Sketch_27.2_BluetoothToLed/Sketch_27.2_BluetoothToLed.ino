@@ -2,7 +2,7 @@
   Filename    : BLE_USART
   Description : Esp32 communicates with the phone by BLE and sends incoming data via a serial port
   Auther      : www.freenove.com
-  Modification: 2022/10/26
+  Modification: 2024/07/01
 **********************************************************************/
 #include "BLEDevice.h"
 #include "BLEServer.h"
@@ -32,7 +32,7 @@ class MyServerCallbacks : public BLEServerCallbacks {
 
 class MyCallbacks : public BLECharacteristicCallbacks {
   void onWrite(BLECharacteristic *pCharacteristic) {
-    std::string rxValue = pCharacteristic->getValue();
+    String rxValue = pCharacteristic->getValue();
     if (rxValue.length() > 0) {
       for (int i = 0; i < 20; i++) {
         rxload[i] = 0;
@@ -61,7 +61,7 @@ void setupBLE(String BLEName) {
 
 void setup() {
   pinMode(LED, OUTPUT);
-  setupBLE("ESP32test");
+  setupBLE("ESP32S3_Bluetooth");
   Serial.begin(115200);
   Serial.println("\nThe device started, now you can pair it with Bluetooth!");
 }
