@@ -32,15 +32,14 @@ void loop() {
 }
 
 void servo_set_pin(int pin) {
-  ledcSetup(SERVO_CHN, SERVO_FRQ, SERVO_BIT);
-  ledcAttachPin(pin, SERVO_CHN);
+  ledcAttachChannel(pin, SERVO_FRQ, SERVO_BIT, SERVO_CHN);
 }
 
 void servo_set_angle(int angle) {
   if (angle > 180 || angle < 0)
     return;
   long pwm_value = map(angle, 0, 180, 103, 512);
-  ledcWrite(SERVO_CHN, pwm_value);
+  ledcWrite(SERVO_PIN, pwm_value);
 }
 
 
