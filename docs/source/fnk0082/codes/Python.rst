@@ -11,6 +11,13 @@ Python language
 
 .. toctree::
    :maxdepth: 1
+   :caption: Remove the Chips
+   :glob:
+
+   Python/Remove_the_Chips.rst
+
+.. toctree::
+   :maxdepth: 1
    :caption: Preface
    :glob:
    
