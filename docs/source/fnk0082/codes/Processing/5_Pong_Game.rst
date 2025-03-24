@@ -4,7 +4,7 @@ Chapter Pong Game
 
 We have experienced single-player game snake before. Now, let's use ESP32S3 board to play classic two-player pong game. You will experience both 2D and 3D version.
 
-Project 5.1 Pong Game
+Project Pong Game
 *******************************
 
 First, let's experience the 2D version game.
@@ -78,7 +78,7 @@ The game will be over when one side reachs three points. Pressing the space bar 
 
 Additionally, you can restart the game by pressing the space bar at any time.
 
-Project 5.2 Pong Game 3D
+Project Pong Game 3D
 **********************************
 
 Now, let's experience the 3D version game.

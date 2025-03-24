@@ -243,7 +243,7 @@ Reference
     
     **readString():** read string in receive buffer 
 
-Project 31.2 As Server 
+Project As Server 
 *********************************
 
 In this section, ESP32-S3 is used as a server to wait for the connection and communication of client on the same LAN.

@@ -4,7 +4,7 @@ Chapter Tetris
 
 In this chapter, we prepare a tetris game for you. You can play the game by pressing the buttons.
 
-Project 6.1 Tetris
+Project Tetris
 *****************************
 
 Now, let's use Processing and ESP32S3 board to achieve the tetris game.

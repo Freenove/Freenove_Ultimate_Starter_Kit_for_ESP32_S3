@@ -162,7 +162,7 @@ Delay for 2 seconds and wait for the ultrasonic module to stabilize. Print data 
     :lines: 24-27
     :dedent:
 
-Project 21.2 Ultrasonic Ranging
+Project Ultrasonic Ranging
 ******************************************
 
 Component List and Circuit

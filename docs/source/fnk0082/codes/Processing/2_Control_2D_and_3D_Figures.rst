@@ -4,7 +4,7 @@ Chapter Control 2D and 3D Figures
 
 In this chapter, we will use ESP32S3 board to make Processing program control figure changes. And we will control 2D and 3D figures, respectively.
 
-Project 2.1 Ellipse
+Project Ellipse
 **********************************
 
 First, control a 2D figure.
@@ -66,7 +66,7 @@ Then you can change the ellipse shape by shifting the joystick:
 .. image:: ../_static/imgs/2_Control_2D_and_3D_Figures/Chapter02_03.png
     :align: center
 
-Project 2.2 Box 3D
+Project Box 3D
 *********************************
 
 Now control a 3D figure.

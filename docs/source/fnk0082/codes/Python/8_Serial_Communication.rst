@@ -136,7 +136,7 @@ Reference
     
     **UART.any():** Determine whether there is data in serial ports. If yes, return the number of bytes; Otherwise, return 0.
 
-Project 8.2 Serial Read and Write
+Project Serial Read and Write
 ******************************************
 
 From last section, we use serial port on Freenove ESP32-S3 to send data to a computer, now we will use that to receive data from computer.

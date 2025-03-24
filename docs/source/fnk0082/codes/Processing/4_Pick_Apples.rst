@@ -4,7 +4,7 @@ Chapter Pick Apples
 
 In this chapter, we prepare pick apples game. You can use the joystick to pick apples. 
 
-Project 4.1 Pick Apples
+Project Pick Apples
 ************************************
 
 Now, let's use Processing and ESP32S3 board to achieve the game.
