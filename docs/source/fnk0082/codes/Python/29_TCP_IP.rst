@@ -68,7 +68,7 @@ Install ControlP5.
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_04.png
     :align: center
 
-Open the " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketches\\Sketch_31.1_WiFiClient\sketchWiFi\sketchWiFi.pde** ", and click "Run".
+Open the " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketches\\Sketch_31.1_WiFiClient\\sketchWiFi\\sketchWiFi.pde** ", and click "Run".
 
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_05.png
     :align: center

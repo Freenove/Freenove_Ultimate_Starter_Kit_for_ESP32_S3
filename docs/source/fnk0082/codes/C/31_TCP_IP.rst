@@ -290,7 +290,7 @@ Serial Monitor
 
 Processing: 
 
-Open the " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketches\\Sketch_31.2_WiFiServer\sketchWiFi\sketchWiFi.pde** ".
+Open the " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketches\\Sketch_31.2_WiFiServer\\sketchWiFi\\sketchWiFi.pde** ".
 
 Based on the messages printed by the serial monitor, enter correct IP address and serial port in Processing to establish connection and make communication.
 

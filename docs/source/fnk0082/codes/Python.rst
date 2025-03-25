@@ -46,7 +46,7 @@ Python language
    Python/15_74HC595_&_7-Segment_Display.rst
    Python/16_74HC595_&_LED_Matrix.rst
    Python/17_Relay_&_Motor.rst
-   Python/17.2_Motor_&_Driver.rst
+   Python/17_2_Motor_&_Driver.rst
    Python/18_Servo.rst
    Python/19_Stepper_Motor.rst
    Python/20_LCD1602.rst
@@ -66,7 +66,7 @@ Python language
    :caption: What's next?
    :glob:
 
-   Python/What_s_next.rst
+   What_s_next.rst
 
 .. toctree::
    :maxdepth: 1

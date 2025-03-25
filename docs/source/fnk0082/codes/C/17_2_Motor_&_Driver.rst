@@ -37,7 +37,7 @@ Component List
 .. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png
     :width: 50%
 .. |Chapter09_00| image:: ../_static/imgs/9_AD_Converter/Chapter09_00.png
-.. |Chapter17_01| image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_01.png
+.. |Chapter17_01| image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_01.png
 .. |Chapter17.1_01| image:: ../_static/imgs/17_Relay_&_Motor/Chapter17_01.png
 
 Component knowledge
@@ -48,7 +48,7 @@ L293D
 
 L293D is an IC chip (Integrated Circuit Chip) with a 4-channel motor drive. You can drive a unidirectional DC motor with 4 ports or a bi-directional DC motor with 2 ports or a stepper motor (stepper motors are covered later in this Tutorial).
 
-.. image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_00.png
+.. image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_00.png
     :align: center
 
 Port description of L293D module is as follows:
@@ -81,12 +81,12 @@ When using L293D to drive DC motor, there are usually two connection options.
 
 The following connection option uses one channel of the L239D, which can control motor speed through the PWM, However the motor then can only rotate in one direction.
 
-.. image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_02.png
+.. image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_02.png
     :align: center
 
 The following connection uses two channels of the L239D: one channel outputs the PWM wave, and the other channel connects to GND, therefore you can control the speed of the motor. When these two channel signals are exchanged, not only controls the speed of motor, but also can control the steering of the motor.
 
-.. image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_03.png
+.. image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_03.png
     :align: center
 
 Circuit
@@ -111,64 +111,50 @@ Use caution when connecting this circuit, because the DC motor is a high-power c
         
         We recommend that you use a 9V battery to power the extension board.  
 
-.. |Chapter17_04| image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_04.png
-.. |Chapter17_05| image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_05.png
+.. |Chapter17_04| image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_04.png
+.. |Chapter17_05| image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_05.png
 
-Code
+Sketch
 =========================
 
-Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
+Sketch_Control_Motor_by_L293D
+-----------------------------------------------
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Motor_And_Driver” and double click “Motor_And_Driver.py”. 
-
-Motor_And_Driver
--------------------------------
-
-.. image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_09.png
+.. image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_06.png
     :align: center
 
-Click “Run current script”, rotate the potentiometer in one direction and the motor speeds up slowly in one direction. Rotate the potentiometer in the other direction and the motor will slow down to stop. And then rotate it in the original direction to accelerate the motor.
+Download code to ESP32-S3 WROOM, rotate the potentiometer in one direction and the motor speeds up slowly in one direction. And then rotate the potentiometer in the other direction and the motor will slow down to stop. And then rotate it in an inverse direction to accelerate the motor.
 
-.. image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_10.png
+.. image:: ../_static/imgs/17_2_Motor_&_Driver/Chapter17_07.png
     :align: center
 
-The following is the Code:
+The following is the sketch:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.2_Motor_And_Driver/Motor_And_Driver.py
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
     :linenos: 
-    :language: python
+    :language: c
     :dedent:
 
-The ADC of ESP32-S3 has a 12-bit accuracy, corresponding to a range from 0 to 4095. In this program, set the number 2048 as the midpoint. If the value of ADC is less than 2048, make the motor rotate in one direction. If the value of ADC is greater than 2048, make the motor rotate in the other direction. Subtract 2048 from the ADC value and take the absolute value, and then divide this result by 2 to be the speed of the motor.
+The ADC of ESP32-S3 has a 12-bit accuracy, corresponding to a range from 0 to 4095. In this program, set the number 2048 as the midpoint. If the value of ADC is less than 2048, make the motor rotate in one direction. If the value of ADC is greater than 2048, make the motor rotate in the other direction. Subtract 2048 from the ADC value and take the absolute value and use this result as the speed of the motor.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.2_Motor_And_Driver/Motor_And_Driver.py
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
     :linenos: 
-    :language: python
-    :lines: 26-34
+    :language: c
+    :lines: 26-39
     :dedent:
 
-Initialize pins of L293D chip.
+Set the accuracy of the PWM to 11 bits and range from 0 to 2047 to control the rotation speed of the motor.
 
-.. code-block:: python
-
-    in1Pin=Pin(13, Pin.OUT)
-    in2Pin=Pin(14, Pin.OUT)
-
-    enablePin=Pin(12, Pin.OUT)
-    pwm=PWM(enablePin,10000)
-
-Initialize ADC pins, set the range of voltage to 0-3.3V and the acquisition width of data to 0-4095.
-
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.2_Motor_And_Driver/Motor_And_Driver.py
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
     :linenos: 
-    :language: python
-    :lines: 11-13
+    :language: c
+    :lines: 53-53
     :dedent:
 
-Function driveMotor is used to control the rotation direction and speed of the motor. The dir represents direction while spd refers to speed.
+Function driveMotor is used to control the rotation direction and speed of the motor. The **dir** represents direction while **spd** refers to speed.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.2_Motor_And_Driver/Motor_And_Driver.py
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.2_Control_Motor_by_L293D/Sketch_17.2_Control_Motor_by_L293D.ino
     :linenos: 
-    :language: python
-    :lines: 15-22
+    :language: c
+    :lines: 42-54
     :dedent:
