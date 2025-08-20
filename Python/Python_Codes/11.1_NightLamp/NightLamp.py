@@ -17,6 +17,7 @@ try:
         print(adcValue,pwmValue)
         time.sleep_ms(100)
 except:
+    adc.deinit()
     pwm.deinit()
 
 

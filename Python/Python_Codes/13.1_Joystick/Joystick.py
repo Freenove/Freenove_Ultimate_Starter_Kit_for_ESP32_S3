@@ -10,9 +10,13 @@ yVal.atten(ADC.ATTN_11DB)
 xVal.width(ADC.WIDTH_12BIT)
 yVal.width(ADC.WIDTH_12BIT)
 
-while True:
-  print("X,Y,Z:",xVal.read(),",",yVal.read(),",",zVal.value())
-  time.sleep(1)
+try:
+    while True:
+      print("X,Y,Z:",xVal.read(),",",yVal.read(),",",zVal.value())
+      time.sleep(1)
+except:
+    xVal.deinit()
+    yVal.deinit()
 
   
   

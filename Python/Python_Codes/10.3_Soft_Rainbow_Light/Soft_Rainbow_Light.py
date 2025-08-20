@@ -33,14 +33,17 @@ def wheel(pos):
         red=(WheelPos*3)
         green=0
         blue=(255-WheelPos*3)
-        
-while True:
+
+try:
+    while True:
         adcValue=remap(adc0.read(),0,4095,0,255)
         for j in range(0,8):
             wheel(adcValue+j*255//8)
             np[j]=(int(red*brightness),int(green*brightness),int(blue*brightness))
         np.write()
         time.sleep_ms(50)
+except:
+    adc0.deinit()
         
         
         

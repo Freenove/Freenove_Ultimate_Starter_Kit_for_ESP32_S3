@@ -9,9 +9,9 @@ try:
     while True:
         adcVal=adc.read()
         voltage = adcVal / 4095.0 * 3.3
-        print("ADC Val:",adcVal,"Voltage:",voltage,"V")
+        print("ADC Val:",adcVal,"\tVoltage:",voltage,"V")
         time.sleep_ms(100)
 except:
-    pass
+    adc.deinit()
 
 

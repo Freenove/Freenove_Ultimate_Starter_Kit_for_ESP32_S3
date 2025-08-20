@@ -24,6 +24,9 @@ try:
         pwm2.duty(1023-remap(adc2.read(),0,4095,0,1023))
         time.sleep_ms(100)
 except:
+    adc0.deinit()
+    adc1.deinit()
+    adc2.deinit()
     pwm0.deinit()
     pwm1.deinit()
     pwm2.deinit()
