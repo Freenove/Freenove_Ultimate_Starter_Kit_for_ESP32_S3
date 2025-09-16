@@ -43,9 +43,9 @@ Currently, we have two development board options available: the N8R8 version wit
    :align: center
    
    * -  ESP32-S3 WROOM N16R8
-     -  |Preface146|
+     -  ESP32-S3 WROOM N8R8
 
-   * -  ESP32-S3 WROOM N8R8
+   * -  |Preface146|
      -  |Preface02|
 
 .. |Preface146| image:: ../_static/imgs/Preface/Preface146.png
