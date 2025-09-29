@@ -10,7 +10,7 @@ int dataPin  = 38;          // Pin connected to DS of 74HC595（Pin14）
 
 // Define the pattern data for a smiling face
 const int smilingFace[] = {                       //"^ⅴ^"
-  0x1C, 0x22, 0x51, 0x45, 0x45, 0x51, 0x22, 0x14
+  0x1C, 0x22, 0x51, 0x45, 0x45, 0x51, 0x22, 0x1C
 };
 // Define the data of numbers and letters, and save them in flash area
 const int data[] PROGMEM = {
