@@ -7,7 +7,7 @@
 int latchPin = 39;           // Pin connected to ST_CP of 74HC595（Pin12）
 int clockPin = 40;           // Pin connected to SH_CP of 74HC595（Pin11）
 int dataPin  = 38;           // Pin connected to DS of 74HC595（Pin14）
-int comPin[] = {21,47,35,36};// Common pin (anode) of 4 digit 7-segment display
+int comPin[] = {47,35,36,21};// Common pin (anode) of 4 digit 7-segment display
 
 // Define the encoding of characters 0-F of the common-anode 7-Segment Display
 byte num[] = {0xc0, 0xf9, 0xa4, 0xb0, 0x99, 0x92, 0x82, 0xf8,
