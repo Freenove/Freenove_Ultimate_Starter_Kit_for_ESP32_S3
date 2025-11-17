@@ -57,7 +57,7 @@ Circuit
    :align: center
    
    * -  Schematic diagram
-   * -  |Chapter23_05|
+   * -  |Chapter24_02|
 
    * -  Hardware connection.
       
