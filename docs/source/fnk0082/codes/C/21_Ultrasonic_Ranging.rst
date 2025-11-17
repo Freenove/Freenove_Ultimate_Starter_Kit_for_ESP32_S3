@@ -99,7 +99,7 @@ Note that the voltage of ultrasonic module is 5V in the circuit.
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter21_05| 
+   * -  |Chapter21_05| 
 
 .. |Chapter21_04| image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_04.png
 .. |Chapter21_05| image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_05.png         

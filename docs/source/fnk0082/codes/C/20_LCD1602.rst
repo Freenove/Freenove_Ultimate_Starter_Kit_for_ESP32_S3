@@ -94,7 +94,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter20_07| 
+   * -  |Chapter20_07| 
 
 .. |Chapter20_06| image:: ../_static/imgs/20_LCD1602/Chapter20_06.png
 .. |Chapter20_07| image:: ../_static/imgs/20_LCD1602/Chapter20_07.png

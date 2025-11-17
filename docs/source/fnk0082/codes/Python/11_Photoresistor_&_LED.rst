@@ -71,7 +71,7 @@ The circuit of this project is similar to project Soft Light. The only differenc
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter11_03|
+   * -  |Chapter11_03|
 
 .. |Chapter12_03| image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter12_03.png
 .. |Chapter12_04| image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter12_04.png

@@ -125,7 +125,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter17_12|
+   * -  |Chapter17_12|
         
         Note: the motor circuit uses A large current, about 0.2-0.3A without load.
         

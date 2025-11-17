@@ -64,7 +64,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter22_04| 
+   * -  |Chapter22_04| 
 
 .. |Chapter22_03| image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_03.png
 .. |Chapter22_04| image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_04.png         
@@ -215,10 +215,10 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter22_10| 
+   * -  |Chapter22_10| 
 
-.. |Chapter22_09| image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter22_09.png
-.. |Chapter22_10| image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter22_10.png   
+.. |Chapter22_09| image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_09.png
+.. |Chapter22_10| image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_10.png   
 
 Sketch
 ===========================

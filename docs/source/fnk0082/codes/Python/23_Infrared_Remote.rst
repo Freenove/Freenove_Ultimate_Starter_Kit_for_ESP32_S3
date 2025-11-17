@@ -82,7 +82,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter23_06| 
+   * -  |Chapter23_06| 
 
 .. |Chapter23_05| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_05.png
 .. |Chapter23_06| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_06.png  
@@ -221,7 +221,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter23_15| 
+   * -  |Chapter23_15| 
 
 .. |Chapter23_14| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_14.png
 .. |Chapter23_15| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_15.png 

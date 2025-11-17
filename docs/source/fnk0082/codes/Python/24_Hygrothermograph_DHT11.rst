@@ -62,7 +62,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter24_03| 
+   * -  |Chapter24_03| 
 
 .. |Chapter24_02| image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_02.png
 .. |Chapter24_03| image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_03.png  
@@ -202,7 +202,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter24_09| 
+   * -  |Chapter24_09| 
 
 .. |Chapter24_08| image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_08.png
 .. |Chapter24_09| image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_09.png  

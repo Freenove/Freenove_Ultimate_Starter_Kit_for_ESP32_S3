@@ -89,7 +89,7 @@ When building the circuit, note that rated voltage of the stepper motor is 5V, a
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter19_08| 
+   * -  |Chapter19_08| 
 
 .. |Chapter19_07| image:: ../_static/imgs/19_Stepper_Motor/Chapter19_07.png
 .. |Chapter19_08| image:: ../_static/imgs/19_Stepper_Motor/Chapter19_08.png

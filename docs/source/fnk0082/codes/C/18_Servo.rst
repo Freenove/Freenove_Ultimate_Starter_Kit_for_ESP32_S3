@@ -77,7 +77,7 @@ Use caution when supplying power to the servo, it should be 5V. Make sure you do
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter18_03|
+   * -  |Chapter18_03|
 
 .. |Chapter18_02| image:: ../_static/imgs/18_Servo/Chapter18_02.png
 .. |Chapter18_03| image:: ../_static/imgs/18_Servo/Chapter18_03.png
@@ -175,7 +175,7 @@ Use caution when supplying power to the servo, it should be 5V. Make sure you do
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter18_07|
+   * -  |Chapter18_07|
 
 .. |Chapter18_06| image:: ../_static/imgs/18_Servo/Chapter18_06.png
 .. |Chapter18_07| image:: ../_static/imgs/18_Servo/Chapter18_07.png

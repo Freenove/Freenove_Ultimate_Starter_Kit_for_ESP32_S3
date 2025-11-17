@@ -105,7 +105,7 @@ Use caution when connecting this circuit, because the DC motor is a high-power c
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter17_05|
+   * -  |Chapter17_05|
         
         Note: the motor circuit uses A large current, about 0.2-0.3A without load.
         

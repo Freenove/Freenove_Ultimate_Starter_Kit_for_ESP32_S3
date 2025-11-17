@@ -94,7 +94,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter10_02|
+   * -  |Chapter10_02|
 
 .. |Chapter10_01| image:: ../_static/imgs/10_Touch_Sensor/Chapter10_01.png
 .. |Chapter10_02| image:: ../_static/imgs/10_Touch_Sensor/Chapter10_02.png
@@ -167,7 +167,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter10_07|
+   * -  |Chapter10_07|
 
 .. |Chapter10_06| image:: ../_static/imgs/10_Touch_Sensor/Chapter10_06.png
 .. |Chapter10_07| image:: ../_static/imgs/9_AD_Converter/Chapter10_07.png

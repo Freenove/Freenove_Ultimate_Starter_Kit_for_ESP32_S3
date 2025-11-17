@@ -51,7 +51,7 @@ Circuit
    * -  Hardware connection.
 
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter11_04|
+   * -  |Chapter11_04|
 
 .. |Chapter11_00| image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter11_00.png
 .. |Chapter11_04| image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter11_04.png
@@ -119,7 +119,7 @@ Circuit
    * -  Hardware connection.
       
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
-     -  |Chapter11_03|
+   * -  |Chapter11_03|
 
 .. |Chapter11_02| image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter11_02.png
 .. |Chapter11_03| image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter11_03.png
