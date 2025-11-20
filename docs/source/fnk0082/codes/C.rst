@@ -71,7 +71,6 @@ C language
    :glob:
 
    C/What_s_next(82).rst
-   What_s_next(others).rst
 
 .. toctree::
    :maxdepth: 1
