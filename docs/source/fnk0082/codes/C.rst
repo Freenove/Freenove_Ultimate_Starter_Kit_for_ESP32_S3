@@ -63,6 +63,7 @@ C language
    C/31_TCP_IP.rst
    C/32_Camera_Web_Server.rst
    C/33_Camera_Tcp_Server.rst
+   C/35_USB.rst
    C/34_Soldering_Circuit_Board.rst
 
 .. toctree::
