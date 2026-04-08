@@ -170,7 +170,7 @@ Project AP mode
 Component List & Circuit
 =================================
 
-Component List & Circuit are the same as in Project 30.1.
+Component List & Circuit are the same as in Project 29.1.
 
 Component knowledge
 =================================
