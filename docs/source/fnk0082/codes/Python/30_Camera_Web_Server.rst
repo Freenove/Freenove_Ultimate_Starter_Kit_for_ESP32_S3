@@ -69,7 +69,7 @@ Click "Install", Wait for completion.
 
 Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "30.1_Camera_WebServer". Select folder "**lib**", right click your mouse to select "Upload to /", wait for "**lib**" to be uploaded to ESP32-WROVER and then double click "**picoweb_video.py**".
 
-Camera_WebServer
+30.1_Camera_WebServer
 --------------------------
 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_21.png
